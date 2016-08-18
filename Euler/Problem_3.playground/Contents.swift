@@ -13,34 +13,52 @@ let projectEuler = "projecteuler.net"
  
  What is the largest prime factor of the number 600851475143 
  */
-func problem3() -> Int {
-    var n:Int = 600851475143
-    let primes:NSMutableArray = [2, 3]
+func getNextPrime(primes: NSMutableArray) -> Int {
+    if primes.count == 0 {
+        primes.addObject(2)
+        return 2;
+    }
     
-    var maxPrime:Int = 0
-    var prime:Int = 3
-    while n > 1 {
+    if primes.count == 1 {
+        primes.addObject(3)
+        return 3;
+    }
+    
+    var findNewPrime = false
+    var nextPrime = primes.lastObject as! Int + 2
+    while !findNewPrime {
+        findNewPrime = true
         for i in primes {
-            if n % (i as! Int) == 0 {
-                if (i as! Int) > maxPrime {
-                    maxPrime = (i as! Int)
-                }
-                n /= (i as! Int)
-            }
-        }
-        
-        var findNewPrime:Bool = true
-        for i in primes {
-            if (prime + 2) % (i as! Int) == 0 {
+            if nextPrime % (i as! Int) == 0 {
                 findNewPrime = false
                 break
             }
         }
-        if findNewPrime {
-            primes.addObject(prime + 2)
+        if (findNewPrime) {
+            primes.addObject(nextPrime)
+            break
         }
         
-        prime = prime + 2
+        nextPrime = nextPrime + 2
+    }
+    
+    return nextPrime
+}
+
+func problem3() -> Int {
+    var n:Int = 600851475143
+    let primes:NSMutableArray = []
+    
+    var maxPrime:Int = 0
+    while n > 1 {
+        let nextPrime = getNextPrime(primes)
+        
+        while n % nextPrime == 0 {
+            if nextPrime > maxPrime {
+                maxPrime  = nextPrime
+            }
+            n /= nextPrime
+        }
         
         print("\((maxPrime, n))")
     }
