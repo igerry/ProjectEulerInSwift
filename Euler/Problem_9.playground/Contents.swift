@@ -18,11 +18,12 @@ let projectEuler = "projecteuler.net"
  Find the product abc.
  */
 func problem9() -> Int {
+    let max:Int = 1000
     var sum = 0
-    for i in 1...998 {
-        for j in 1...(999-i) {
-            let k = 1000 - i - j
-            if (i*i + j*j == k*k) || (i*i + k*k == j*j) || (k*k + j*j == i*i) {
+    for i in 1...(max / 3) {
+        for j in 1...(max - 1 - i) / 2 {
+            let k = max - i - j
+            if (i*i + j*j == k*k) {
                 sum = i * j * k
             }
         }
