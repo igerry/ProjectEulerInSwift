@@ -15,9 +15,9 @@ func problem10() -> Int {
     var nextPrime = 0
     
     while nextPrime < 2000000 {
-        nextPrime = getNextPrime(primes)
         sum += nextPrime
         
+        nextPrime = getNextPrime(primes)
         print("\(nextPrime)")
     }
     
