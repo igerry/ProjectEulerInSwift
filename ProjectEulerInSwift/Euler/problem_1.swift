@@ -1,8 +1,4 @@
-//: Playground - noun: a place where people can play
-
 import Foundation
-
-let projectEuler = "projecteuler.net"
 
 /*
  Multiples of 3 and 5

@@ -1,8 +1,4 @@
-//: Playground - noun: a place where people can play
-
 import Foundation
-
-let projectEuler = "projecteuler.net"
 
 /*
  Largest product in a grid
@@ -47,7 +43,6 @@ func gridV(grid:[Int], v:Int, h:Int) -> Int {
 }
 
 func problem11() -> Int {
-    
     let maxH = 20
     let maxV = 20
     let grid:[Int] = [

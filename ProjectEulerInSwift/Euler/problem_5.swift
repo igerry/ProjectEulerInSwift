@@ -1,7 +1,4 @@
-//: Playground - noun: a place where people can play
-
 import Foundation
-
 
 /*
  Smallest Multiple
@@ -11,12 +8,6 @@ import Foundation
  
  What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?
  */
-
-func problem5() -> UInt {
-    let divisors : [UInt] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
-    return lcm(divisors)
-}
-
 func lcm(divisors: [UInt]) -> UInt {
     if divisors.count == 0 {
         return 0
@@ -43,4 +34,8 @@ func lcm(first: UInt, second: UInt) -> UInt {
     return current
 }
 
-let lcm = problem5()
+func problem5() -> UInt {
+    let divisors : [UInt] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+    return lcm(divisors)
+}
+let p5 = problem5()

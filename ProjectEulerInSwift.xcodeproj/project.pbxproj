@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9A026B71D65E06600CB6217 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A026B61D65E06600CB6217 /* main.swift */; };
+		C9A026D81D65E16D00CB6217 /* problem_0.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A026CB1D65E16D00CB6217 /* problem_0.swift */; };
+		C9A026D91D65E16D00CB6217 /* problem_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A026CC1D65E16D00CB6217 /* problem_1.swift */; };
+		C9A026DA1D65E16D00CB6217 /* problem_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A026CD1D65E16D00CB6217 /* problem_2.swift */; };
+		C9A026DB1D65E16D00CB6217 /* problem_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A026CE1D65E16D00CB6217 /* problem_3.swift */; };
+		C9A026DC1D65E16D00CB6217 /* problem_4.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A026CF1D65E16D00CB6217 /* problem_4.swift */; };
+		C9A026DD1D65E16D00CB6217 /* problem_5.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A026D01D65E16D00CB6217 /* problem_5.swift */; };
+		C9A026DE1D65E16D00CB6217 /* problem_6.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A026D11D65E16D00CB6217 /* problem_6.swift */; };
+		C9A026DF1D65E16D00CB6217 /* problem_7.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A026D21D65E16D00CB6217 /* problem_7.swift */; };
+		C9A026E01D65E16D00CB6217 /* problem_8.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A026D31D65E16D00CB6217 /* problem_8.swift */; };
+		C9A026E11D65E16D00CB6217 /* problem_9.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A026D41D65E16D00CB6217 /* problem_9.swift */; };
+		C9A026E21D65E16D00CB6217 /* problem_10.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A026D51D65E16D00CB6217 /* problem_10.swift */; };
+		C9A026E31D65E16D00CB6217 /* problem_11.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A026D61D65E16D00CB6217 /* problem_11.swift */; };
+		C9A026E41D65E16D00CB6217 /* problem_12.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A026D71D65E16D00CB6217 /* problem_12.swift */; };
+		C9A026E91D65E30700CB6217 /* common.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A026E81D65E30700CB6217 /* common.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C9A026B11D65E06600CB6217 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C9A026B31D65E06600CB6217 /* ProjectEulerInSwift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ProjectEulerInSwift; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9A026B61D65E06600CB6217 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		C9A026CB1D65E16D00CB6217 /* problem_0.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = problem_0.swift; sourceTree = "<group>"; };
+		C9A026CC1D65E16D00CB6217 /* problem_1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = problem_1.swift; sourceTree = "<group>"; };
+		C9A026CD1D65E16D00CB6217 /* problem_2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = problem_2.swift; sourceTree = "<group>"; };
+		C9A026CE1D65E16D00CB6217 /* problem_3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = problem_3.swift; sourceTree = "<group>"; };
+		C9A026CF1D65E16D00CB6217 /* problem_4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = problem_4.swift; sourceTree = "<group>"; };
+		C9A026D01D65E16D00CB6217 /* problem_5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = problem_5.swift; sourceTree = "<group>"; };
+		C9A026D11D65E16D00CB6217 /* problem_6.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = problem_6.swift; sourceTree = "<group>"; };
+		C9A026D21D65E16D00CB6217 /* problem_7.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = problem_7.swift; sourceTree = "<group>"; };
+		C9A026D31D65E16D00CB6217 /* problem_8.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = problem_8.swift; sourceTree = "<group>"; };
+		C9A026D41D65E16D00CB6217 /* problem_9.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = problem_9.swift; sourceTree = "<group>"; };
+		C9A026D51D65E16D00CB6217 /* problem_10.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = problem_10.swift; sourceTree = "<group>"; };
+		C9A026D61D65E16D00CB6217 /* problem_11.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = problem_11.swift; sourceTree = "<group>"; };
+		C9A026D71D65E16D00CB6217 /* problem_12.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = problem_12.swift; sourceTree = "<group>"; };
+		C9A026E81D65E30700CB6217 /* common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = common.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9A026B01D65E06600CB6217 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9A026AA1D65E06600CB6217 = {
+			isa = PBXGroup;
+			children = (
+				C9A026B51D65E06600CB6217 /* ProjectEulerInSwift */,
+				C9A026B41D65E06600CB6217 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9A026B41D65E06600CB6217 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9A026B31D65E06600CB6217 /* ProjectEulerInSwift */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9A026B51D65E06600CB6217 /* ProjectEulerInSwift */ = {
+			isa = PBXGroup;
+			children = (
+				C9A026B61D65E06600CB6217 /* main.swift */,
+				C9A026E81D65E30700CB6217 /* common.swift */,
+				C9A026BD1D65E0B700CB6217 /* Euler */,
+			);
+			path = ProjectEulerInSwift;
+			sourceTree = "<group>";
+		};
+		C9A026BD1D65E0B700CB6217 /* Euler */ = {
+			isa = PBXGroup;
+			children = (
+				C9A026CB1D65E16D00CB6217 /* problem_0.swift */,
+				C9A026CC1D65E16D00CB6217 /* problem_1.swift */,
+				C9A026CD1D65E16D00CB6217 /* problem_2.swift */,
+				C9A026CE1D65E16D00CB6217 /* problem_3.swift */,
+				C9A026CF1D65E16D00CB6217 /* problem_4.swift */,
+				C9A026D01D65E16D00CB6217 /* problem_5.swift */,
+				C9A026D11D65E16D00CB6217 /* problem_6.swift */,
+				C9A026D21D65E16D00CB6217 /* problem_7.swift */,
+				C9A026D31D65E16D00CB6217 /* problem_8.swift */,
+				C9A026D41D65E16D00CB6217 /* problem_9.swift */,
+				C9A026D51D65E16D00CB6217 /* problem_10.swift */,
+				C9A026D61D65E16D00CB6217 /* problem_11.swift */,
+				C9A026D71D65E16D00CB6217 /* problem_12.swift */,
+			);
+			path = Euler;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9A026B21D65E06600CB6217 /* ProjectEulerInSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9A026BA1D65E06600CB6217 /* Build configuration list for PBXNativeTarget "ProjectEulerInSwift" */;
+			buildPhases = (
+				C9A026AF1D65E06600CB6217 /* Sources */,
+				C9A026B01D65E06600CB6217 /* Frameworks */,
+				C9A026B11D65E06600CB6217 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProjectEulerInSwift;
+			productName = ProjectEulerInSwift;
+			productReference = C9A026B31D65E06600CB6217 /* ProjectEulerInSwift */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9A026AB1D65E06600CB6217 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = dodo;
+				TargetAttributes = {
+					C9A026B21D65E06600CB6217 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = C9A026AE1D65E06600CB6217 /* Build configuration list for PBXProject "ProjectEulerInSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C9A026AA1D65E06600CB6217;
+			productRefGroup = C9A026B41D65E06600CB6217 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9A026B21D65E06600CB6217 /* ProjectEulerInSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9A026AF1D65E06600CB6217 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9A026E41D65E16D00CB6217 /* problem_12.swift in Sources */,
+				C9A026E21D65E16D00CB6217 /* problem_10.swift in Sources */,
+				C9A026DE1D65E16D00CB6217 /* problem_6.swift in Sources */,
+				C9A026DA1D65E16D00CB6217 /* problem_2.swift in Sources */,
+				C9A026D91D65E16D00CB6217 /* problem_1.swift in Sources */,
+				C9A026E31D65E16D00CB6217 /* problem_11.swift in Sources */,
+				C9A026DC1D65E16D00CB6217 /* problem_4.swift in Sources */,
+				C9A026DD1D65E16D00CB6217 /* problem_5.swift in Sources */,
+				C9A026D81D65E16D00CB6217 /* problem_0.swift in Sources */,
+				C9A026E11D65E16D00CB6217 /* problem_9.swift in Sources */,
+				C9A026E01D65E16D00CB6217 /* problem_8.swift in Sources */,
+				C9A026DF1D65E16D00CB6217 /* problem_7.swift in Sources */,
+				C9A026DB1D65E16D00CB6217 /* problem_3.swift in Sources */,
+				C9A026B71D65E06600CB6217 /* main.swift in Sources */,
+				C9A026E91D65E30700CB6217 /* common.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C9A026B81D65E06600CB6217 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C9A026B91D65E06600CB6217 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C9A026BB1D65E06600CB6217 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C9A026BC1D65E06600CB6217 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9A026AE1D65E06600CB6217 /* Build configuration list for PBXProject "ProjectEulerInSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9A026B81D65E06600CB6217 /* Debug */,
+				C9A026B91D65E06600CB6217 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9A026BA1D65E06600CB6217 /* Build configuration list for PBXNativeTarget "ProjectEulerInSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9A026BB1D65E06600CB6217 /* Debug */,
+				C9A026BC1D65E06600CB6217 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9A026AB1D65E06600CB6217 /* Project object */;
+}
