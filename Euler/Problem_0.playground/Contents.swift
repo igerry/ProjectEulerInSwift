@@ -13,7 +13,12 @@ let projectEuler = "projecteuler.net"
  
  */
 func problem0() -> Int {
+    let start = NSDate()
+    
     let sum = 0
+    
+    let diff = -start.timeIntervalSinceNow
+    print("\(diff)")
     return sum
 }
 let p0 = problem0()
