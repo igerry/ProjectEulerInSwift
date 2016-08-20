@@ -11,7 +11,7 @@ import Foundation
 let projectEuler = "projecteuler.net"
 let start = NSDate()
 
-print("[Result]: \(p16)")
+print("[Result]: \(p17)")
 
 let diff = -start.timeIntervalSinceNow
 print("[TotalTime]: \(diff)s")

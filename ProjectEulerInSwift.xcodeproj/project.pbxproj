@@ -26,6 +26,10 @@
 		C9A026F91D67F9BC00CB6217 /* problem_14.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A026F81D67F9BC00CB6217 /* problem_14.swift */; };
 		C9A026FB1D68049200CB6217 /* problem_15.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A026FA1D68049200CB6217 /* problem_15.swift */; };
 		C9A026FD1D680A3000CB6217 /* problem_16.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A026FC1D680A3000CB6217 /* problem_16.swift */; };
+		C9A027021D681D3600CB6217 /* problem_17.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A026FE1D681D3600CB6217 /* problem_17.swift */; };
+		C9A027031D681D3600CB6217 /* problem_18.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A026FF1D681D3600CB6217 /* problem_18.swift */; };
+		C9A027041D681D3600CB6217 /* problem_19.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A027001D681D3600CB6217 /* problem_19.swift */; };
+		C9A027051D681D3600CB6217 /* problem_20.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A027011D681D3600CB6217 /* problem_20.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -61,6 +65,10 @@
 		C9A026F81D67F9BC00CB6217 /* problem_14.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = problem_14.swift; sourceTree = "<group>"; };
 		C9A026FA1D68049200CB6217 /* problem_15.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = problem_15.swift; sourceTree = "<group>"; };
 		C9A026FC1D680A3000CB6217 /* problem_16.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = problem_16.swift; sourceTree = "<group>"; };
+		C9A026FE1D681D3600CB6217 /* problem_17.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = problem_17.swift; sourceTree = "<group>"; };
+		C9A026FF1D681D3600CB6217 /* problem_18.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = problem_18.swift; sourceTree = "<group>"; };
+		C9A027001D681D3600CB6217 /* problem_19.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = problem_19.swift; sourceTree = "<group>"; };
+		C9A027011D681D3600CB6217 /* problem_20.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = problem_20.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +128,10 @@
 				C9A026F81D67F9BC00CB6217 /* problem_14.swift */,
 				C9A026FA1D68049200CB6217 /* problem_15.swift */,
 				C9A026FC1D680A3000CB6217 /* problem_16.swift */,
+				C9A026FE1D681D3600CB6217 /* problem_17.swift */,
+				C9A026FF1D681D3600CB6217 /* problem_18.swift */,
+				C9A027001D681D3600CB6217 /* problem_19.swift */,
+				C9A027011D681D3600CB6217 /* problem_20.swift */,
 			);
 			path = Euler;
 			sourceTree = "<group>";
@@ -184,6 +196,7 @@
 				C9A026E41D65E16D00CB6217 /* problem_12.swift in Sources */,
 				C9A026E21D65E16D00CB6217 /* problem_10.swift in Sources */,
 				C9A026DE1D65E16D00CB6217 /* problem_6.swift in Sources */,
+				C9A027031D681D3600CB6217 /* problem_18.swift in Sources */,
 				C9A026DA1D65E16D00CB6217 /* problem_2.swift in Sources */,
 				C9A026D91D65E16D00CB6217 /* problem_1.swift in Sources */,
 				C9A026E31D65E16D00CB6217 /* problem_11.swift in Sources */,
@@ -194,8 +207,11 @@
 				C9A026E11D65E16D00CB6217 /* problem_9.swift in Sources */,
 				C9A026E01D65E16D00CB6217 /* problem_8.swift in Sources */,
 				C9A026DF1D65E16D00CB6217 /* problem_7.swift in Sources */,
+				C9A027051D681D3600CB6217 /* problem_20.swift in Sources */,
 				C9A026DB1D65E16D00CB6217 /* problem_3.swift in Sources */,
+				C9A027041D681D3600CB6217 /* problem_19.swift in Sources */,
 				C9A026B71D65E06600CB6217 /* main.swift in Sources */,
+				C9A027021D681D3600CB6217 /* problem_17.swift in Sources */,
 				C9A026F91D67F9BC00CB6217 /* problem_14.swift in Sources */,
 				C9A026FB1D68049200CB6217 /* problem_15.swift in Sources */,
 				C9A026E91D65E30700CB6217 /* common.swift in Sources */,
