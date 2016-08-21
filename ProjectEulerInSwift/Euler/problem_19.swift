@@ -3,7 +3,7 @@ import Foundation
 /*
  Counting Sundays
  Problem 19
- 172
+ 171
  
  You are given the following information, but you may prefer to do some research for yourself.
  
@@ -18,7 +18,7 @@ import Foundation
  How many Sundays fell on the first of the month during the twentieth century (1 Jan 1901 to 31 Dec 2000)?
  */
 func isLeapYear(year:Int) -> Bool {
-    let isLeap:Bool = (year % 4 == 0) && (year % 400 != 0)
+    let isLeap:Bool = (year % 4 == 0) && ((year % 400 == 0) || (year % 100 != 0))
     return isLeap
 }
 
@@ -62,11 +62,13 @@ func problem19() -> Int {
                 month += 1
             }
             weekDay = (weekDay + 1) % 7
-            print("\(year, month,day)=\(weekDay)")
+            print("\(year, month, day)=\(weekDay)")
 
             // special
             if (weekDay == 0 && day == 1) {
-                specialSunndays += 1
+                if year != 1900 {
+                    specialSunndays += 1
+                }
             }
         }
         
