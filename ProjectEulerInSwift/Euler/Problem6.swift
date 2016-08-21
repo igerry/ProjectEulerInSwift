@@ -16,15 +16,18 @@ import Foundation
  Find the difference between the sum of the squares of the first one hundred natural numbers and the square of the sum.
  
  */
-func problem6() -> Int {
-    var sum = 0
-    var sumSquare = 0
-    for i in 1...100 {
-        sum += i
-        sumSquare += i * i
+class Problem6 {
+
+    func solution() -> Int {
+        var sum = 0
+        var sumSquare = 0
+        for i in 1...100 {
+            sum += i
+            sumSquare += i * i
+        }
+        
+        let diff = sum * sum - sumSquare
+        return diff
     }
     
-    let diff = sum * sum - sumSquare
-    return diff
 }
-let p6 = problem6()

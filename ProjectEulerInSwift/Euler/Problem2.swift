@@ -12,18 +12,21 @@ import Foundation
  By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of the even-valued terms.
  
  */
-func problem2() -> Int {
-    var i:Int = 1
-    var j:Int = 1
-    var sum:Int = 0
-    while j <= 4000000 {
-        if j % 2 == 0 {
-            sum += j
+class Problem2 {
+
+    func solution() -> Int {
+        var i:Int = 1
+        var j:Int = 1
+        var sum:Int = 0
+        while j <= 4000000 {
+            if j % 2 == 0 {
+                sum += j
+            }
+            
+            (i, j) = (j, i + j)
         }
         
-        (i, j) = (j, i + j)
+        return sum
     }
-    
-    return sum
+
 }
-let p2 = problem2()

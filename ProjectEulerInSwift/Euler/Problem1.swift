@@ -10,19 +10,22 @@ import Foundation
  Find the sum of all the multiples of 3 or 5 below 1000.
  
  */
-func problem1() -> Int {
-    var sum = 0
-    for i in 0..<1000 {
-        if (i % 3 == 0) || (i % 5 == 0) {
-            sum += i
+class Problem1 {
+    
+    func solution() -> Int {
+        var sum = 0
+        for i in 0..<1000 {
+            if (i % 3 == 0) || (i % 5 == 0) {
+                sum += i
+            }
+            
+            if i % 15 == 0 {
+                sum -= i
+            }
         }
         
-        if i % 15 == 0 {
-            sum -= i
-        }
+        return sum
     }
     
-    return sum
 }
-let p1 = problem1()
 
