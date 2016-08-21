@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Common {
+class DWCommon {
 
     class func getNextPrime(primes: NSMutableArray) -> Int {
         if primes.count == 0 {

@@ -19,7 +19,7 @@ class Problem10 {
         while nextPrime < 2000000 {
             sum += nextPrime
             
-            nextPrime = Common.getNextPrime(primes)
+            nextPrime = DWCommon.getNextPrime(primes)
             print("\(nextPrime)")
         }
         

@@ -15,7 +15,7 @@ class Problem7 {
         let primes:NSMutableArray = []
         var nextPrime = 2
         for _ in 1...10001 {
-            nextPrime = Common.getNextPrime(primes)
+            nextPrime = DWCommon.getNextPrime(primes)
         }
         
         return nextPrime

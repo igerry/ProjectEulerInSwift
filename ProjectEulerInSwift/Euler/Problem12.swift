@@ -30,7 +30,7 @@ class Problem12 {
         while nn > 1 {
             let maxPrime = primes.lastObject as! Int
             if  maxPrime < nn {
-                Common.getNextPrime(primes)
+                DWCommon.getNextPrime(primes)
             }
             
             for i in primes {

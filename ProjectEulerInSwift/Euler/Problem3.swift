@@ -17,7 +17,7 @@ class Problem3 {
         
         var maxPrime:Int = 0
         while n > 1 {
-            let nextPrime = Common.getNextPrime(primes)
+            let nextPrime = DWCommon.getNextPrime(primes)
             
             while n % nextPrime == 0 {
                 if nextPrime > maxPrime {
