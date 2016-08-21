@@ -3,7 +3,7 @@ import Foundation
 /*
  Factorial digit sum
  Problem 20
- 
+ 648
  
  n! means n × (n − 1) × ... × 3 × 2 × 1
  
