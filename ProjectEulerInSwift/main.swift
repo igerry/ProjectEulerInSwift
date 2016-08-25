@@ -11,7 +11,7 @@ import Foundation
 let projectEuler = "projecteuler.net"
 let start = NSDate()
 
-let p = Problem20()
+let p = Problem21()
 print("[Result]: \(p.solution())")
 
 let diff = -start.timeIntervalSinceNow
